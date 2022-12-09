@@ -19,12 +19,11 @@ double pythagoras(double x,double y){
     double p = sqrt(pow(x,2)+pow(y,2));
     return p;
 }
-double showResult(double r1, double r2){
+void showResult(double r1, double r2){
     cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" << endl;
     cout << "Length of the resultant vector = " << r1 << endl;
     cout << "Direction of the resultant vector (deg) = " << r2 << endl;
     cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" << endl;
-    return 0;
 }
 
 int main(){
